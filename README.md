@@ -1,11 +1,15 @@
 # HelloWorld Exercise
 
 This Hello World program solution is made up of 5 projects:
-1.DataLayer, 2.BusinessLogic, 3.HelloWorldAPI, 4.HelloWorldAPI.Tests, 5.ConsoleProject
+1.DataLayer
+2.BusinessLogic
+3.HelloWorldAPI
+4.HelloWorldAPI.Tests
+5.ConsoleProject
 
 Each project is explained below:
 
-1.DataLayer Project: 
+1.DataLayer Project:
 I created AppCode/HelloDataSet.xsd which accesses the database directly by using TableAdapters.
 I also created AlternativeDataAccess.cs to be able to access the data in other ways without TableAdapters, using SQLConnection with a query or by calling a stored procedure.
 The connectionString for the SQL database is stored in App.Config.
@@ -35,5 +39,6 @@ GetDataFromWCFwebservice() calls the WCF webservice (added as a Service Referenc
 The App.config file contains the settings and URL to the API.
 
 Thanks for reviewing my solution.
-Lucian Blebea
+
+Lucian
 
